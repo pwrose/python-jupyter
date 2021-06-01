@@ -1,8 +1,6 @@
-# Introduction to Python in Jupyter Lab
+# Ten Simple Steps to setup Python 3 and Jupyter Lab
 
-This repository is a tutorial how to setup Jupyter Lab for Python tutorials.
-
-To setup Python 3 and Jupyter Lab follow these steps.
+This tutorial describes step by step how to setup Jupyter Lab for Python 3 on Windows 10 and Mac OS.
 
 ## 1. Download Miniconda
 Click on the latest version (Python 3.9) for your operating system (e.g., Miniconda3 Windows 64-bit) to download the installer.
@@ -151,7 +149,7 @@ and click the run (>) button again to see the result.
 <img src="images/run_add.png", width="60%">
 </p>
 
-Congratulations, you've run your first Python code in a Jupyter Lab.
+Congratulations, you've run your first Python code in Jupyter Lab.
 
 Select "Shutdown" from the File menu when you are finshed with your first tutorial.
 <p align="center">
