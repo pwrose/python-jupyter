@@ -99,7 +99,7 @@ Type the following command into the command window to create a new directory.
 
 ## 8. Run Jupyter Lab
 
-Type the following commands to run Jupyter Lab in the tutorial directory
+Type the following commands to run Jupyter Lab in the tutorial directory.
 ```
 cd tutorial
 jupyter lab
@@ -133,13 +133,13 @@ Type ```print('Hello World')``` in the first notebook cell.
 <img src="images/cell_hello_world.png", width="60%">
 </p>
 
-Run this command by clicking on the run (>) button. Make sure the cell you want run is selected. This command will print the text ```Hellow World```.
+Click the run (>) button to execute your first Python command. Make sure the cell you want run is selected. This command will print the text ```Hello World```.
 
 <p align="center">
 <img src="images/run_hello_world.png", width="60%">
 </p>
 
-Now, lets try to add a few number and print the results. In the second cell, type:
+Lets add a couple of numbers and print the results. In the second cell, type:
 ```
 x = 5
 y = 7
@@ -158,7 +158,7 @@ Select "Shutdown" from the File menu when you are finshed with your first tutori
 <img src="images/shutdown.png", width="60%">
 </p>
 
-To start Jupyter Lab again, go to step 8 and create new notebooks and follow the same steps.
+To start Jupyter Lab again, go to step 8, create new notebooks and follow the same steps.
 
 Now you are ready to learn Python!
 
