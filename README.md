@@ -168,17 +168,35 @@ Run these tutorials in Jupyter Notebooks. Create a new notebook for each tutoria
 
 For each new topic in a tutorial, create a new cell by clicking the ```+``` sign in the menu at the top of the notebook.
 
-Python Tutorial for Beginners 2: [Strings - Working with Textual Data](https://www.youtube.com/watch?v=k9TUPpGqYTo)
+* Python Tutorial for Beginners 2: [Strings - Working with Textual Data](https://www.youtube.com/watch?v=k9TUPpGqYTo)
 
-Python Tutorial for Beginners 3: [Integers and Floats - Working with Numeric Data](https://www.youtube.com/watch?v=khKv-8q7YmY)
+* Python Tutorial for Beginners 3: [Integers and Floats - Working with Numeric Data](https://www.youtube.com/watch?v=khKv-8q7YmY)
 
-Python Tutorial for Beginners 4: [Lists, Tuples, and Sets](https://www.youtube.com/watch?v=W8KRzm-HUcc)
+* Python Tutorial for Beginners 4: [Lists, Tuples, and Sets](https://www.youtube.com/watch?v=W8KRzm-HUcc)
 
-Python Tutorial for Beginners 5: [Dictionaries - Working with Key-Value Pairs](https://www.youtube.com/watch?v=daefaLgNkw0)
+* Python Tutorial for Beginners 5: [Dictionaries - Working with Key-Value Pairs](https://www.youtube.com/watch?v=daefaLgNkw0)
 
-Python Tutorial for Beginners 6: [Conditionals and Booleans - If, Else, and Elif Statements](https://www.youtube.com/watch?v=DZwmZ8Usvnk)
+* Python Tutorial for Beginners 6: [Conditionals and Booleans - If, Else, and Elif Statements](https://www.youtube.com/watch?v=DZwmZ8Usvnk)
 
-Python Tutorial for Beginners 7: [Loops and Iterations - For/While Loops](https://www.youtube.com/watch?v=6iF8Xb7Z3wQ)
+* Python Tutorial for Beginners 7: [Loops and Iterations - For/While Loops](https://www.youtube.com/watch?v=6iF8Xb7Z3wQ)
+
+# Basic Pandas Tutorials
+Pandas is a Python library for data analysis. It works with tabular data, such as Excel files (.xlsx) or comma separated value files (.csv). Pandas refers to tabular data as dataframes.
+
+Run the tutorials in Jupyter Lab. 
+
+**NOTE, We'll skipp the first 3 minutes of the first video which covers the installation of Pandas and Jupyter Lab. You have already installed both earlier, so not not install them again. We'll start the video with loading data into Pandas**
+
+* Python Pandas Tutorial (Part 1): [Getting Started with Data Analysis - ~~Installation and~~ Loading Data](https://www.youtube.com/watch?v=ZyhVh-qRZPA&t=178s)</br>
+The data files used in this video can be downloaded from the StackOverflow Survey [download page](https://insights.stackoverflow.com/survey)
+
+* Python Pandas Tutorial (Part 2):[DataFrame and Series Basics - Selecting Rows and Columns](https://www.youtube.com/watch?v=zmdjNSmRXF4)
+
+* Python Pandas Tutorial (Part 3): [Indexes - How to Set, Reset, and Use Indexes](https://www.youtube.com/watch?v=W9XjRYFkkyw)
+
+
+
+
 
 
 
