@@ -185,7 +185,7 @@ Pandas is a Python library for data analysis. It works with tabular data, such a
 
 Run the tutorials in Jupyter Lab. 
 
-**NOTE, We'll skipp the first 3 minutes of the first video which covers the installation of Pandas and Jupyter Lab. You have already installed both earlier, so not not install them again. We'll start the video with loading data into Pandas**
+**NOTE, We'll skip the first 3 minutes of the first video which covers the installation of Pandas and Jupyter Lab. You have already installed them earlier, so do not install them again. We'll start the video with loading data into Pandas**
 
 * Python Pandas Tutorial (Part 1): [Getting Started with Data Analysis - ~~Installation and~~ Loading Data](https://www.youtube.com/watch?v=ZyhVh-qRZPA&t=178s)</br>
 The data files used in this video can be downloaded from the StackOverflow Survey [download page](https://insights.stackoverflow.com/survey)
