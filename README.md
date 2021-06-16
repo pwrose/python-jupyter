@@ -1,14 +1,15 @@
-# Ten Simple Steps to setup Python 3 and Jupyter Lab
+# Eight Simple Steps to setup Python 3 and Jupyter Lab
 
-This tutorial describes step by step how to setup Jupyter Lab for Python 3 on Windows 10 and Mac OS.
+This tutorial describes step by step how to setup Jupyter Lab for Python 3.
 
-## 1. Download Miniconda
+## 1. Download and install Miniconda 
+
+### Instructions for Windows 10 and Mac OS
 Click on the latest version (Python 3.9) for your operating system (e.g., Miniconda3 Windows 64-bit) to download the installer.
 <p align="center">
 <img src="images/miniconda.png", width="60%">
 </p>
 
-## 2. Install Miniconda3
 Run the Miniconda3 installer (shown here is the installer for Windows 10) by following these steps.
 <p align="center">
 <img src="images/download.png", width="60%">
@@ -46,7 +47,29 @@ Finally, click finish to complete the installation of Miniconda3.
 <img src="images/setup7.png", width="60%">
 </p>
 
-## 4. Open a Command Window/Terminal Window
+### Instructions for Linux, Centos, and other Unix system
+In a terminal window download the Miniconda install script.
+```
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+
+Install Miniconda by running the downloaded script.
+```
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+
+Follow the prompts on the installer screens. If you are unsure about any setting, accept the defaults. 
+
+To make the changes take effect, close and then re-open your terminal window.
+
+Test the installation.
+```
+conda list
+```
+
+A list of installed packages appears if it has been installed correctly.
+
+## 2. Open a Command Window/Terminal Window
 
 #### On Window 10
 
@@ -62,7 +85,11 @@ Type "terminal" in the Spotlight Search in top menu bar to open a terminal windo
 <img src="images/terminal.png", width="60%">
 </p>
 
-## 5. Install Jupyter Lab using Conda
+#### On Linux, Centos, or other Unix system
+
+Open a terminal window.
+
+## 3. Install Jupyter Lab using Conda
 
 Type the following command into the command window to install Jupyter Lab.
 
@@ -74,7 +101,7 @@ Type the following command into the command window to install Jupyter Lab.
 <img src="images/jupyterlab_install.png", width="60%">
 </p>
 
-## 6. Install Pandas using Conda
+## 4. Install Pandas using Conda
 
 Type the following command into the command window to install Pandas. 
 
@@ -86,7 +113,7 @@ Type "y" to proceed when prompted to complete the installation.
 <img src="images/pandas_install.png", width="60%">
 </p>
 
-## 7. Create a Directory for the Python Tutorials
+## 5. Create a Directory for the Python Tutorials
 
 Type the following command into the command window to create a new directory.
 
@@ -95,7 +122,7 @@ Type the following command into the command window to create a new directory.
 <img src="images/mkdir_tutorial.png", width="60%">
 </p>
 
-## 8. Run Jupyter Lab
+## 6. Run Jupyter Lab
 
 Type the following commands to run Jupyter Lab in the tutorial directory.
 ```
@@ -112,7 +139,7 @@ Jupyter Lab will launch in your default web browser.
 <img src="images/jupyterlab_launched.png", width="60%">
 </p>
 
-## 9. Create a new Notebook 
+## 7. Create a new Notebook 
 Select "New -> Notebook" from the File menu.
 <p align="center">
 <img src="images/new_notebook.png", width="60%">
@@ -125,7 +152,7 @@ Select "Python 3" as the Kernel.
 
 Select "Rename" from the file menu and rename the notebook: ```tutorial1.ipynb```.
 
-## 10. Run a simple Python command in the Notebook
+## 8. Run a simple Python command in the Notebook
 Type ```print('Hello World')``` in the first notebook cell.
 <p align="center">
 <img src="images/cell_hello_world.png", width="60%">
@@ -156,7 +183,7 @@ Select "Shutdown" from the File menu when you are finshed with your first tutori
 <img src="images/shutdown.png", width="60%">
 </p>
 
-To start Jupyter Lab again, go to step 8, create new notebooks and follow the same steps.
+To start Jupyter Lab again, go to step 6, create new notebooks and follow the same steps.
 
 Now you are ready to learn Python!
 
